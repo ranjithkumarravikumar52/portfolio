@@ -1,7 +1,7 @@
 # portfolio
 
 ## Roadmap
-
-- Phase 1: Add core sections (About, Skills, Experience, Education) with summarized content.
-- Phase 2: Add Projects, Certifications, and Contact sections.
-- Phase 3: Polish with resume download, SEO, and extras.
+- [x] Move content into a JSON file and generate HTML from it
+- [x] Add contact link details
+- [ ] Github action to trigger CI/CD
+- [ ] Mobile view friendly
