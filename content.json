@@ -18,34 +18,22 @@
     {
       "type": "contact",
       "heading": "Contact",
-      "paragraphs": ["Please feel free to reach me out via email"]
+      "paragraphs": [
+        "Feel free to connect with me on LinkedIn or explore my work on GitHub."
+      ],
+      "linkRefs": ["linkedin", "github"]
     }
   ],
   "links": [
     {
-      "name": "iesoft",
-      "url": "TODO: add Iesoft link",
-      "text": "Iesoft Technologies"
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/ranjith52/",
+      "text": "LinkedIn"
     },
     {
       "name": "github",
-      "url": "TODO: add GitHub link",
+      "url": "https://github.com/ranjithkumarravikumar52/",
       "text": "GitHub"
-    },
-    {
-      "name": "masters",
-      "url": "TODO: add master's link",
-      "text": "University of North Carolina at Charlotte"
-    },
-    {
-      "name": "paper",
-      "url": "TODO: add paper link",
-      "text": "ProQuest"
-    },
-    {
-      "name": "email",
-      "url": "TODO: add email",
-      "text": "email"
     }
   ]
 }
