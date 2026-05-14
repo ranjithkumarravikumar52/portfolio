@@ -1,0 +1,49 @@
+{
+  "pageTitle": "Ranjith's Personal Site",
+  "favicon": "images/favicon.ico",
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Hello, I'm <span id=\"userName\">Ranjith</span>",
+      "paragraphs": [
+        "I'm a software engineer mainly interested in developing web-based products, writing high quality, maintainable, software, and interested in building programming tools that assist those goals. Areas of interests or expertise includes Java, JavaScript, Node, MongoDB and Git. This is my personal blog where I share my thought and ideas.",
+        "I'm located in India. I currently work at a start-up company called Iesoft Technologies as a software developer, primarily focusing in building web-based and mobile-based products.",
+        "My passion lies in building beautiful web or mobile based products, from idea inception to shipping the final product. I care about the full stack, doing anything from data modeling, system architecture, tool building, back-end and front-end work.",
+        "I have a master's degree in Computer Science from University of North Carolina at Charlotte, USA. I have published my thesis in academic journal called ProQuest. Basically, I'm a tech enthusiast who breathes code and loves creating beautiful software.",
+        "In addition, I believe Biryani or Coffee could bring us world peace."
+      ]
+    },
+    {
+      "type": "contact",
+      "heading": "Contact",
+      "paragraphs": ["Please feel free to reach me out via email"]
+    }
+  ],
+  "links": [
+    {
+      "name": "iesoft",
+      "url": "TODO: add Iesoft link",
+      "text": "Iesoft Technologies"
+    },
+    {
+      "name": "github",
+      "url": "TODO: add GitHub link",
+      "text": "GitHub"
+    },
+    {
+      "name": "masters",
+      "url": "TODO: add master's link",
+      "text": "University of North Carolina at Charlotte"
+    },
+    {
+      "name": "paper",
+      "url": "TODO: add paper link",
+      "text": "ProQuest"
+    },
+    {
+      "name": "email",
+      "url": "TODO: add email",
+      "text": "email"
+    }
+  ]
+}
