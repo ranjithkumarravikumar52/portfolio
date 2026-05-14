@@ -1,0 +1,36 @@
+name: Validate Portfolio
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Validate JSON syntax
+      run: |
+        python3 -m json.tool content.json > /dev/null
+        echo "✓ content.json is valid"
+
+    - name: Check required files exist
+      run: |
+        test -f index.html && echo "✓ index.html found"
+        test -f content.json && echo "✓ content.json found"
+        test -f js/content-loader.js && echo "✓ content-loader.js found"
+        test -f css/styles.css && echo "✓ styles.css found"
+
+    - name: Verify HTML file format
+      run: |
+        grep -q "<!DOCTYPE html>" index.html && echo "✓ HTML has doctype"
+        grep -q "<body>" index.html && echo "✓ HTML has body tag"
+        grep -q "content-loader.js" index.html && echo "✓ Script reference found"
+
+    - name: Success
+      run: echo "✓ All validations passed!"

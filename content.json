@@ -1,0 +1,39 @@
+{
+  "pageTitle": "Ranjith's Personal Site",
+  "favicon": "images/favicon.ico",
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Hello, I'm <span id=\"userName\">Ranjith</span>",
+      "paragraphs": [
+        "I'm a full-stack software engineer with 7+ years of experience building enterprise web applications, backend systems, and scalable cloud-based solutions. My work primarily revolves around Java, Spring Boot, Angular, Oracle DB, AWS, and event-driven microservices, with a strong focus on building reliable, maintainable, and production-ready software.",
+        "Most recently, I worked at Qualcomm, where I contributed to high-volume enterprise systems handling millions of documents and transactions annually. My work included backend development, production support, CI/CD automation, cloud deployments, performance optimization, and resolving critical system issues in distributed environments.",
+        "Prior to Qualcomm, I worked extensively on enterprise ERP and CRM platforms, web and hybrid mobile applications, notification systems, and event-driven architectures using technologies like Java, MEAN stack, Ionic, Solace, Kafka, and AWS.",
+        "I enjoy working across the full software development lifecycle — from system design and architecture to implementation, debugging, deployment, and production stability. I'm particularly interested in backend engineering, scalable distributed systems, cloud technologies, automation, and building tools that improve developer productivity and operational reliability.",
+        "I hold a Master's degree in Information Technology from the University of North Carolina at Charlotte, USA, where my thesis research focused on analyzing how teamwork, communication, trust, and social behavior influence student performance in collaborative learning environments.",
+        "Outside of work, I enjoy exploring technology, AI-assisted development workflows, software architecture, and occasionally sharing thoughts and ideas through personal projects and writing.",
+        "And yes — I believe good biryani and coffee can solve at least half the problems in the world."
+      ]
+    },
+    {
+      "type": "contact",
+      "heading": "Contact",
+      "paragraphs": [
+        "Feel free to connect with me on LinkedIn or explore my work on GitHub."
+      ],
+      "linkRefs": ["linkedin", "github"]
+    }
+  ],
+  "links": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/ranjith52/",
+      "text": "LinkedIn"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/ranjithkumarravikumar52/",
+      "text": "GitHub"
+    }
+  ]
+}
