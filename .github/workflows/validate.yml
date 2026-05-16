@@ -28,7 +28,7 @@ jobs:
 
     - name: Verify HTML file format
       run: |
-        grep -q "<!DOCTYPE html>" index.html && echo "✓ HTML has doctype"
+        grep -qi "<!doctype html>" index.html && echo "✓ HTML has doctype"
         grep -q "<body>" index.html && echo "✓ HTML has body tag"
         grep -q "content-loader.js" index.html && echo "✓ Script reference found"
 
